@@ -13,6 +13,8 @@
 		044CEB571B10E3DA00035301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CEB561B10E3DA00035301 /* Images.xcassets */; };
 		044CEB5A1B10E3DA00035301 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044CEB581B10E3DA00035301 /* LaunchScreen.xib */; };
 		044CEB661B10E3DA00035301 /* mailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB651B10E3DA00035301 /* mailboxTests.swift */; };
+		044CEB701B10E51B00035301 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB6F1B10E51B00035301 /* MessagesViewController.swift */; };
+		044CEB721B11043400035301 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CEB711B11043400035301 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		044CEB5F1B10E3DA00035301 /* mailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CEB641B10E3DA00035301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044CEB651B10E3DA00035301 /* mailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailboxTests.swift; sourceTree = "<group>"; };
+		044CEB6F1B10E51B00035301 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = ../MessagesViewController.swift; sourceTree = "<group>"; };
+		044CEB711B11043400035301 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		044CEB4C1B10E3DA00035301 /* mailbox */ = {
 			isa = PBXGroup;
 			children = (
+				044CEB711B11043400035301 /* Common.swift */,
 				044CEB4F1B10E3DA00035301 /* AppDelegate.swift */,
 				044CEB511B10E3DA00035301 /* ViewController.swift */,
+				044CEB6F1B10E51B00035301 /* MessagesViewController.swift */,
 				044CEB531B10E3DA00035301 /* Main.storyboard */,
 				044CEB561B10E3DA00035301 /* Images.xcassets */,
 				044CEB581B10E3DA00035301 /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044CEB721B11043400035301 /* Common.swift in Sources */,
+				044CEB701B10E51B00035301 /* MessagesViewController.swift in Sources */,
 				044CEB521B10E3DA00035301 /* ViewController.swift in Sources */,
 				044CEB501B10E3DA00035301 /* AppDelegate.swift in Sources */,
 			);
